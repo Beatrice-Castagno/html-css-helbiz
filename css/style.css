@@ -1,0 +1,50 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:link {
+  color:black;
+}
+/* HEADER */
+.header_top {
+ height: 60px;
+ line-height: 60px;
+ text-transform: uppercase;
+}
+
+.header_top img {
+  height: 12px;
+}
+
+.nav_link {
+  list-style: none;
+}
+
+.nav_link li {
+  margin-right: 40px;
+  font-size: 11px;
+}
+
+.lang {
+  font-size: 11px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 0 10px;
+}
+
+.btn_login {
+  border-radius: 0px;
+  background-color: black;
+  color: white;
+  margin-left: 20px;
+  padding: 8px 22px;
+}
+
+.btn_login:hover {
+  color: white;
+}
+/* /HEADER */
